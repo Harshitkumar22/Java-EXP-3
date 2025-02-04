@@ -18,7 +18,7 @@ public class ReverseWords{
         return reversed.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         String s = "This is decent";
         System.out.println("Input: " + s);
         System.out.println("Output: " + reverseWords(s));
