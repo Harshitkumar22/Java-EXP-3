@@ -1,3 +1,8 @@
+//4) Given a string s, reverse the words of the string.
+//Example 1:
+//Input: s = “This is decent”
+//Output: “decent is This”
+
 public class ReverseWords{
     public static String reverseWords(String s){  //static method reverseWords takes a string s as input.
         String[] words=s.split(" ");
