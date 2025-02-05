@@ -15,7 +15,7 @@ public class MajorityElement{       //class named MajorityElement.
                 count++;
             }else{
                 count--;
-                if (count==0){
+                if(count==0){
                     ans=nums[i];
                     count=1;
                 }
@@ -26,7 +26,7 @@ public class MajorityElement{       //class named MajorityElement.
     }
 
     public static void main(String[] args){
-        int[] nums = {2, 2, 1, 1, 1, 2, 2};
+        int[] nums={2, 2, 1, 1, 1, 2, 2};
         System.out.println("Majority Element: " + findMajorityElement(nums));
     }
 }
